@@ -35,7 +35,7 @@ def EnterMove(board):
     #board[row][col] = "O"
     #return DisplayBoard(board) 
     
-    def makeListOfFreeFields(board):
+ def makeListOfFreeFields(board):
     free = []
     for row in range(3):
         for col in range(3):
